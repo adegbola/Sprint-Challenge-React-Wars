@@ -1,0 +1,7 @@
+.MovieCard {
+    align-items: center;
+    border: white 3px solid;
+    color: white;
+    margin: 20px;
+    border-radius: 7%;
+}

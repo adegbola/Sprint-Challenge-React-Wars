@@ -1,0 +1,13 @@
+1. What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web. 
+	React JS is a JavaScript library, and it attempts to try to simplify building user interfaces.  
+2.  What does it mean to _think_ in react? 
+	React is component based. You build encapsulated compenents that manage their own state, then compose them to make complex UIs. Each component ideally should only do one thing.  
+	Thinking in react basically means breaking down the app into components.   
+3. Describe state. 
+	In the React sense, “state” is an object that represents the pRarts of the app that can change. 
+	Each component can maintain its own state, which lives in an object called this.state.   
+4.  Describe props. 
+	Props stand for properties. When we give a component some ‘attribute-looking’ data on our JSX, we’re essentially telling React to build us out an object that we can consume as a parameter inside of a Functional Component. Props are immutable (or Read only) meaning we cannot mutate props in any fashion. 
+	We simple receive them in our components and use them to display data to the user.  
+5.    What are side effects, and how do you sync effects in a React component to state or prop changes? 
+	A side effect can be anything that affects something outside the scope of the function that is being executed.Getting data from an API could cause side effects, as it asynchronous and when returned may affect other things. 
